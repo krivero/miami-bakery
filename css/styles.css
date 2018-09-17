@@ -1,7 +1,8 @@
 /* GLOBAL STYLES */
 
 body {
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 5rem;
 }
 
 html {
@@ -16,10 +17,6 @@ html {
   max-width: 200px;
 }
 
-.slogan {
-  text-align: center;
-}
-
 h1 {
   padding-top: 50px;
   text-transform: uppercase;
@@ -31,20 +28,16 @@ h2 {
 }
 
 nav {
+  font-size: 1.25rem;
   text-align: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  color: black;
-  background-color: #FF1493;
+  color: white;
+  background-color: black;
 }
 
 nav a {
   display: inline-block;
   padding: 15px 20px;
-  color: black;
+  color: #FF1493;
   text-decoration: none;
   text-transform: uppercase;
   font weight: 700;
@@ -56,11 +49,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-footer {
-  margin-top: 30px;
-  display: inline;
-  text-align: center;
-}
 
 img {
   display: inline-block;
@@ -80,6 +68,13 @@ h3 {
 
 p {
   margin-bottom: 50px;
+}
+
+footer {
+  color: #FF1493;
+  background-color: black;
+  text-align: center;
+  width: 100%;
 }
 
 /* ABOUT */
