@@ -1,0 +1,118 @@
+/* GLOBAL STYLES */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  background-color: #008080;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+.slogan {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  color: black;
+  background-color: #FF1493;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font weight: 700;
+  min-width: 200px;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 30px;
+  display: inline;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+}
+
+/* INDEX//HOME */
+h3 {
+  text-align: center;
+}
+
+.icon {
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+/* ABOUT */
+
+.about {
+  transform: uppercase;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+
+.about-img {
+  max-width: 800px;
+}
+
+/* LOCATION */
+.map {
+  text-align: center;
+}
+
+
+/* CONTACT */
+
+
+
+
+/* MEDIA QUERIES
+------------ */
+@media (min-width: 900px)
+
+@media (min-width: 430px max-width: 899px)
+
+@media (max-width: 429px)
