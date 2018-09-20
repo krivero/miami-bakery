@@ -55,9 +55,8 @@ nav a:hover {
 .current {
   color: white;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
-
 
 img {
   display: inline-block;
