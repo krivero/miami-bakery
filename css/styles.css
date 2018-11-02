@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Rokkitt");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 /* GLOBAL STYLES */
 
 body {
-  font-family: "Rokkitt", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 5rem;
 }
 
@@ -20,7 +21,6 @@ html {
 }
 
 h1 {
-  font-family: "Rokkitt", serif;
   font-size: 5rem;
   padding-top: 50px;
   text-transform: uppercase;
@@ -28,11 +28,13 @@ h1 {
 }
 
 h2 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 nav {
-  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
   text-align: center;
   color: white;
   background-color: black;
@@ -71,6 +73,14 @@ img {
 }
 
 /* INDEX//HOME */
+.main-content {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  font-size: 3rem;
+}
+
 h3 {
   text-align: center;
   font-size: 4rem;
@@ -100,7 +110,7 @@ footer {
 
 .history {
   line-height: 3em;
-  font-family: "Rokkitt", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   display: inline-block;
 }
